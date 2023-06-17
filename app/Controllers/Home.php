@@ -8,6 +8,8 @@ class Home extends BaseController
 {
     public function index()
     {
+        // Testing, testing.
+
         // Get the latest framework releases
         try {
             $repos = $this->github->getRepos();
